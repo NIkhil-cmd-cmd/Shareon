@@ -11,7 +11,7 @@ st.info("Share-On is at your assistance.", icon="📃")
 if "messages" not in st.session_state.keys():  # Initialize the chat messages history
     st.session_state.messages = [
         {
-            "role": "assistant",
+            "role": "mental health assistant",
             "content": "Share what's on your mind with Share-On",
         }
     ]
