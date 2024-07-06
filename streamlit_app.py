@@ -23,7 +23,7 @@ def load_data():
     Settings.llm = OpenAI(
         model="gpt-3.5-turbo",
         temperature=0.2,
-        system_prompt="""You are a mental health assistant. Your job is to answer questions related to mental health, provide support, and offer factual information. Keep your answers supportive and based on facts – do not hallucinate features or give medical advice. Do not direct users to seek help from other resources or a therapist or a mental health professional unless it is extreme.""",
+        system_prompt="""You are a mental health assistant. Your job is to answer questions related to mental health, provide support, and offer factual information. Keep your answers supportive and based on facts – do not hallucinate features or give medical advice. Do not direct users to seek help from other resources or a therapist or a mental health professional unless it is extreme. If users ask anything non mental health related do not provide them with an answer.""",
     )
     index = VectorStoreIndex.from_documents(docs)
     return index
