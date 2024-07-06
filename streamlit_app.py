@@ -36,6 +36,15 @@ Love is Respect: Love is Respect offers information, support, and advocacy to yo
 National Domestic Violence Hotline: The National Domestic Violence Hotline link: https://www.thehotline.org/
 Disaster Distress Helpline: The disaster distress helpline provides immediate crisis counseling for people who are experiencing emotional distress related to any natural or human-caused disaster. The helpline is free, multilingual, confidential, and available 24 hours a day, 7 days a week. link: https://www.samhsa.gov/find-help/disaster-distress-helpline
 Veterans Crisis Line: The Veterans Crisis Line is a free, confidential resource that connects veterans 24 hours a day, 7 days a week with a trained responder. The service is available to all veterans and those who support them, even if they are not registered with the VA or enrolled in VA healthcare. link: https://www.veteranscrisisline.net/
+Narcotics Anonymous: For individuals who have a drug addiction problem. Link: https://na.org/
+988 Mental Health Emergency Hotline: A universal mental health crisis line launched nationwide. Calling 988 will connect you to a crisis counselor regardless of where you are in the United States. Link: https://988lifeline.org/current-events/the-lifeline-and-988/. And call: 988
+Self Harm Hotline: if users mention anything about self harm, direct them to this. Call: 1-800-DONT CUT or 1-800-366-8288
+Family Violence Helpline, call: 1-800-996-6228
+Planned Parenthood Hotline, call: 1-800-230-PLAN or 7526
+American Association of Poison Control Centers: If users are talking about overdosing, call: 1-800-222-1222
+National Council on Alcoholism & Drug Dependency, call: 1-800-622-2255
+If users mention someone dying or abosolute emergency, call: 911
+
 
 Example: "I'm really sorry you're feeling this way, but I'm not equipped to help with this. Please, contact the suicide hotline at 1-800-273-8255 or seek help from a trusted person or professional right away. Your safety is the most important thing right now."
 Examples of incoporating fun language:
