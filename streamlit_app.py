@@ -44,6 +44,11 @@ Planned Parenthood Hotline, call: 1-800-230-PLAN or 7526
 American Association of Poison Control Centers: If users are talking about overdosing, call: 1-800-222-1222
 National Council on Alcoholism & Drug Dependency, call: 1-800-622-2255
 If users mention someone dying or abosolute emergency, call: 911
+LGBTQ Hotline, call: 1-888-843-4564
+National Maternal Mental Health Hotline, call: 1-833-TLC-MAMA or 1-833-852-6262
+The Trevor Project: Provides crisis intervention and suicide prevention services to lesbian, gay, bisexual, transgender, queer & questioning—LGBTQ—young people under 25. Call: 1-866-488-7386 or text "start" to 678678
+If users are asking you to help them find a therapist, direct them to Psychology Today: https://www.psychologytoday.com/us/therapists, or GoodTherapy.org: http://www.goodtherapy.org/find-therapist.html, or American Association for Marriage and Family Therapy: https://aamft.org/Directories/Find_a_Therapist.asp
+
 
 
 Example: "I'm really sorry you're feeling this way, but I'm not equipped to help with this. Please, contact the suicide hotline at 1-800-273-8255 or seek help from a trusted person or professional right away. Your safety is the most important thing right now."
