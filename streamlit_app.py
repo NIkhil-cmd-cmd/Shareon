@@ -27,9 +27,9 @@ def load_data():
 
 Mental Health Resources:
 
-Substance Abuse and Mental Health Data Archive: Public data about mental illness
-WomensLaw: For female victims of abuse
-Gay, Lesbian, Bisexual and Transgender National Hotline: The LGBT National Help Center serves gay, lesbian, bisexual, transgender, and questioning people by providing free and confidential peer support and local resources.
+Substance Abuse and Mental Health Data Archive: Public data about mental illness  link: https://www.datafiles.samhsa.gov/
+WomensLaw: For female victims of abuse  link: https://www.womenslaw.org/
+Gay, Lesbian, Bisexual and Transgender National Hotline: The LGBT National Help Center serves gay, lesbian, bisexual, transgender, and questioning people by providing free and confidential peer support and local resources. Link: https://lgbthotline.org/ 
 Pathways to Safety International: Pathways to Safety International assists Americans experiencing interpersonal and gender-based violence abroad.
 StrongHearts Native Helpline: The StrongHearts Native Helpline is a safe, anonymous, and confidential service for Native Americans experiencing domestic violence and dating violence.
 Love is Respect: Love is Respect offers information, support, and advocacy to young people who have questions or concerns about their dating relationships.
