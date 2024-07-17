@@ -111,6 +111,11 @@ if st.session_state.messages[-1]["role"] != "assistant":
         else:
             response_stream = st.session_state.chat_engine.stream_chat(user_message)
             response = response_stream.response
+            try:
+                response_stream = st.session_state.chat_engine.stream_chat(user_message)
+                response = response_stream.response
+            except Exception as e:
+                response = f"Sorry, I encountered an error: {e}"
 
         st.write(response)
         message = {"role": "assistant", "content": response}
