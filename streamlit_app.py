@@ -77,14 +77,16 @@ Chatbot: "Ugh, job stress is the worst. Wanna spill the tea on what's been going
     index = VectorStoreIndex.from_documents(docs)
     return index
 
-
+# Load data
 index = load_data()
 
+# Initialize the chat engine
 if "chat_engine" not in st.session_state.keys():  # Initialize the chat engine
     st.session_state.chat_engine = index.as_chat_engine(
         chat_mode="condense_question", verbose=True, streaming=True
     )
 
+# Prompt for user input and save to chat history
 if prompt := st.chat_input(
     "Ask a question"
 ):  # Prompt for user input and save to chat history
