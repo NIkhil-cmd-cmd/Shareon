@@ -99,7 +99,7 @@ for message in st.session_state.messages:
 if st.session_state.messages[-1]["role"] != "assistant":
     with st.chat_message("assistant"):
          with st.chat_message("assistant"):
-    if prompt.lower() == "what's your purpose":
+if prompt.lower() == "what's your purpose":
             response = "My purpose is to assist with mental health-related questions and provide support. How can I help you today?"
         else:
             response_stream = st.session_state.chat_engine.stream_chat(prompt)
