@@ -81,15 +81,15 @@ if prompt := st.chat_input(
 ):  # Prompt for user input and save to chat history
     st.session_state.messages.append({"role": "user", "content": prompt})
 
-for message in st.session_state.messages:  # Write message history to UI
+# Display message history
+for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.write(message["content"])
 
-# If last message is not from assistant, generate a new response
+# Generate a new response if the last message is not from the assistant
 if st.session_state.messages[-1]["role"] != "assistant":
     with st.chat_message("assistant"):
         response_stream = st.session_state.chat_engine.stream_chat(prompt)
         st.write_stream(response_stream.response_gen)
         message = {"role": "assistant", "content": response_stream.response}
-        # Add response to message history
         st.session_state.messages.append(message)
