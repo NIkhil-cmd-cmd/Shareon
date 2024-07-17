@@ -105,7 +105,7 @@ for message in st.session_state.messages:
 # Generate a new response if the last message is not from the assistant
 if st.session_state.messages[-1]["role"] != "assistant":
     with st.chat_message("assistant"):
-        user_message = st.session_state.messages[-1]["content"]
+        user_message = st.session_state.messages[-1]["content"].lower() 
         if user_message.lower() == "what's your purpose":
             response = "My purpose is to assist with mental health-related questions and provide support. How can I help you today?"
         else:
