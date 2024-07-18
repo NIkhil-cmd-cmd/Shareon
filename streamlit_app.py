@@ -6,49 +6,15 @@ from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, Settings
 # Set Streamlit page config
 st.set_page_config(page_title="Share-On chatbot.", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
 
-# Custom CSS to change the background color to #e1fdfd
-custom_css = f"""
-    <style>
-    
-    html, body, [data-testid="stAppViewContainer"], [data-testid="stHeader"], [data-testid="stSidebar"] {{
-        background-color: #e1fdfd;
-        secondary-background-color: #4EE2EC;
-    }}
-    .stTextInput > div:first-child {{
-       background-color: #e1fdfd;
-    }}
-    h1 {{
-        font-size: 5em;
-        color: #000000
-    }}
-    h1 {{
-        font-size: 5em;
-        color: #000000;
-    }}
-    .assistant-icon {{
-        background: url('') no-repeat center center;
-        background-size: contain;
-    }}
-    </style>
-    """
-st.markdown(custom_css, unsafe_allow_html=True)
-
-#st.markdown(f'<div class="chatbot-message"><div class="user-icon"></div><div>How can I help you today?</div></div>', unsafe_allow_html=True)
-#st.markdown(f'<div class="chatbot-message"><div class="bot-icon"></div><div>Sure, I can assist you with that!</div></div>', unsafe_allow_html=True)
-
-#st.markdown(f'<p style="color:#000000;">{text}</p>', unsafe_allow_html=True)
-
-#st.markdown(f'<h1 style="color:#000000;font-size:24px;">{"Share-On Chatbot”"}</h1>', unsafe_allow_html=True)
-
 # Remove the Streamlit logo
-hide_streamlit_style = """
-<style>
+#hide_streamlit_style = """
+#<style>
     #MainMenu {visibility: hidden;}
-    footer {visibility: hidden;}
-    header {visibility: hidden;}
-    </style>
-    """
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+ #   footer {visibility: hidden;}
+  #  header {visibility: hidden;}
+   # </style>
+   # """
+#st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 # Set OpenAI API key
 openai.api_key = st.secrets.openai_key
