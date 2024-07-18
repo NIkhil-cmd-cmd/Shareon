@@ -25,6 +25,31 @@ custom_css = f"""
     </style>
     """
 st.markdown(custom_css, unsafe_allow_html=True)
+
+#ICONS 
+st.markdown("""
+    <style>
+    .chatbot-message {
+        display: flex;
+        align-items: center;
+    }
+    .user-icon {
+        background-image: url('https://example.com/user_icon.png');
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+        margin-right: 10px;
+    }
+    .bot-icon {
+        background-image: url('https://example.com/bot_icon.png');
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+        margin-right: 10px;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
 #st.markdown(f'<p style="color:#000000;">{text}</p>', unsafe_allow_html=True)
 
 #st.markdown(f'<h1 style="color:#000000;font-size:24px;">{"Share-On Chatbot”"}</h1>', unsafe_allow_html=True)
