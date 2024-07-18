@@ -12,7 +12,7 @@ custom_css = f"""
     
     html, body, [data-testid="stAppViewContainer"], [data-testid="stHeader"], [data-testid="stSidebar"] {{
         background-color: #e1fdfd;
-         secondary-background-color: #4EE2EC;
+        secondary-background-color: #4EE2EC;
     }}
     .stTextInput > div:first-child {{
        background-color: #e1fdfd;
