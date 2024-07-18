@@ -10,7 +10,7 @@ st.set_page_config(page_title="Share-On chatbot.", page_icon="🦙", layout="cen
 custom_css = """
     <style>
     html, body, [data-testid="stAppViewContainer"], [data-testid="stHeader"], [data-testid="stSidebar"] {
-        background-color: #ADD8E6;
+        background-color: ##5FE3E8;
     }
     </style>
     """
