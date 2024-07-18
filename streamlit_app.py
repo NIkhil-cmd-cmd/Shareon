@@ -37,7 +37,7 @@ custom_css = f"""
         background-size: contain;
     }}
     .assistant-icon {{
-        background: url('data:image/png;base64,{assistant_icon_base64}') no-repeat center center;
+        background: url('') no-repeat center center;
         background-size: contain;
     }}
     </style>
