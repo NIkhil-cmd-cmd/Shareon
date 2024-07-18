@@ -7,11 +7,21 @@ from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, Settings
 st.set_page_config(page_title="Share-On chatbot.", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
 
 # Custom CSS to change the background color to #e1fdfd
-custom_css = """
+custom_css = f"""
     <style>
-    html, body, [data-testid="stAppViewContainer"], [data-testid="stHeader"], [data-testid="stSidebar"] {
+    html, body, [data-testid="stAppViewContainer"], [data-testid="stHeader"], [data-testid="stSidebar"] {{
         background-color: #e1fdfd;
-    }
+    }}
+    .stTextInput > div:first-child {{
+       background-color: #e1fdfd;
+    }}
+    .chat-icon {{
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        vertical-align: middle;
+    }}
     </style>
     """
 st.markdown(custom_css, unsafe_allow_html=True)
