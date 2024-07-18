@@ -6,11 +6,11 @@ from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, Settings
 # Set Streamlit page config
 st.set_page_config(page_title="Share-On chatbot.", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
 
-# Custom CSS to change the background color to #a8ecec
+# Custom CSS to change the background color to #e1fdfd
 custom_css = """
     <style>
     html, body, [data-testid="stAppViewContainer"], [data-testid="stHeader"], [data-testid="stSidebar"] {
-        background-color: #a8ecec;
+        background-color: #e1fdfd;
     }
     </style>
     """
