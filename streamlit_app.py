@@ -40,15 +40,15 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 openai.api_key = st.secrets.openai_key
 
 # Title and info
-st.title("Share what's on your mind with Share-On")
-st.info("Share-On is at your assistance.")
+st.title("Share-On Chatbot")
+st.info("Share-On is at your assistance and here to support you.")
 
 # Initialize chat messages history
 if "messages" not in st.session_state.keys():  # Initialize the chat messages history
     st.session_state.messages = [
         {
             "role": "assistant",
-            "content": "Share-On is here to support you",
+            "content": "Share what's on your mind with Share-On",
         }
     ]
 
