@@ -9,6 +9,8 @@ st.set_page_config(page_title="Share-On chatbot.", page_icon="🦙", layout="cen
 # Custom CSS to change the background color to #e1fdfd
 custom_css = f"""
     <style>
+    @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
     html, body, [data-testid="stAppViewContainer"], [data-testid="stHeader"], [data-testid="stSidebar"] {{
         background-color: #e1fdfd;
     }}
