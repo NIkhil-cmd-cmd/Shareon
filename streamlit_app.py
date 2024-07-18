@@ -12,13 +12,6 @@ custom_css = """
     html, body, [data-testid="stAppViewContainer"], [data-testid="stHeader"], [data-testid="stSidebar"] {
         background-color: #e1fdfd;
     }
-    .chat-icon {
-        display: inline-block;
-        width: 20px;
-        height: 20px;
-        margin-right: 10px;
-        vertical-align: middle;
-    } 
     </style>
     """
 st.markdown(custom_css, unsafe_allow_html=True)
