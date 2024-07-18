@@ -20,9 +20,9 @@ custom_css = f"""
     }}
     .chat-icon {{
         display: inline-block;
-        width: 20px;
+        width: 50px;
         height: 20px;
-        margin-right: 50px;
+        margin-right: 10px;
         vertical-align: middle;
     }}
     h1 {{
