@@ -9,9 +9,11 @@ st.set_page_config(page_title="Share-On chatbot.", page_icon="🦙", layout="cen
 # Custom CSS to change the background color to #e1fdfd
 custom_css = f"""
     <style>
+    @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
     
     html, body, [data-testid="stAppViewContainer"], [data-testid="stHeader"], [data-testid="stSidebar"] {{
         background-color: #e1fdfd;
+        font-family: 'Comfortaa', cursive;
     }}
     .stTextInput > div:first-child {{
        background-color: #e1fdfd;
@@ -22,6 +24,9 @@ custom_css = f"""
         height: 20px;
         margin-right: 10px;
         vertical-align: middle;
+    }}
+    h1 {{
+        font-size: 3em;
     }}
     </style>
     """
