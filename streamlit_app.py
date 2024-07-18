@@ -25,13 +25,6 @@ custom_css = f"""
         font-size: 5em;
         color: #000000;
     }}
-    .chat-icon {{
-        display: inline-block;
-        width: 20px;
-        height: 20px;
-        margin-right: 10px;
-        vertical-align: middle;
-    }}
     .user-icon {{
         background: url('https://i.pinimg.com/originals/cb/7d/48/cb7d48c589412612f5fd4a554e36a325.png') no-repeat center center;
         background-size: contain;
