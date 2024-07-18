@@ -40,8 +40,8 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 openai.api_key = st.secrets.openai_key
 
 # Title and info
-st.title("Share what's on your mind with Share-On💬")
-st.info("Share-On is at your assistance.", icon="📃")
+st.title("Share what's on your mind with Share-On")
+st.info("Share-On is at your assistance.")
 
 # Initialize chat messages history
 if "messages" not in st.session_state.keys():  # Initialize the chat messages history
