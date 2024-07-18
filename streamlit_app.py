@@ -22,7 +22,7 @@ custom_css = f"""
         display: inline-block;
         width: 20px;
         height: 20px;
-        margin-right: 10px;
+        margin-right: 50px;
         vertical-align: middle;
     }}
     h1 {{
