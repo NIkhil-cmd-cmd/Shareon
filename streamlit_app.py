@@ -2,6 +2,7 @@ import streamlit as st
 import openai
 from llama_index.llms.openai import OpenAI
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, Settings
+import base64
 
 # Set Streamlit page config
 st.set_page_config(page_title="Share-On chatbot.", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
@@ -21,34 +22,29 @@ custom_css = f"""
         font-size: 5em;
         color: #000000
     }}
-    
+    h1 {{
+        font-size: 5em;
+        color: #000000;
+    }}
+    .chat-icon {{
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        vertical-align: middle;
+    }}
+    .user-icon {{
+        background: url('https://i.pinimg.com/originals/cb/7d/48/cb7d48c589412612f5fd4a554e36a325.png') no-repeat center center;
+        background-size: contain;
+    }}
+    .assistant-icon {{
+        background: url('data:image/png;base64,{assistant_icon_base64}') no-repeat center center;
+        background-size: contain;
+    }}
     </style>
     """
 st.markdown(custom_css, unsafe_allow_html=True)
 
-#ICONS 
-st.markdown("""
-    <style>
-    .chatbot-message {
-        display: flex;
-        align-items: center;
-    }
-    .user-icon {
-        background-image: url('https://i.pinimg.com/originals/cb/7d/48/cb7d48c589412612f5fd4a554e36a325.png');
-        width: 20px;
-        height: 20px;
-        background-size: cover;
-        margin-right: 10px;
-    }
-    .bot-icon {
-        background-image: url('https://example.com/bot_icon.png');
-        width: 20px;
-        height: 20px;
-        background-size: cover;
-        margin-right: 10px;
-    }
-    </style>
-    """, unsafe_allow_html=True)
 #st.markdown(f'<div class="chatbot-message"><div class="user-icon"></div><div>How can I help you today?</div></div>', unsafe_allow_html=True)
 #st.markdown(f'<div class="chatbot-message"><div class="bot-icon"></div><div>Sure, I can assist you with that!</div></div>', unsafe_allow_html=True)
 
