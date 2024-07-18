@@ -34,7 +34,7 @@ st.markdown("""
         align-items: center;
     }
     .user-icon {
-        background-image: url('https://example.com/user_icon.png');
+        background-image: url('https://i.pinimg.com/originals/cb/7d/48/cb7d48c589412612f5fd4a554e36a325.png');
         width: 20px;
         height: 20px;
         background-size: cover;
