@@ -6,6 +6,16 @@ from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, Settings
 # Set Streamlit page config
 st.set_page_config(page_title="Share-On chatbot.", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
 
+# Custom CSS to change the background color to light blue
+custom_css = """
+    <style>
+    body {
+        background-color: #ADD8E6;
+    }
+    </style>
+    """
+st.markdown(custom_css, unsafe_allow_html=True)
+
 # Remove the Streamlit logo
 hide_streamlit_style = """
     <style>
