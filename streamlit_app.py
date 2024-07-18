@@ -23,6 +23,8 @@ custom_css = f"""
     """
 st.markdown(custom_css, unsafe_allow_html=True)
 
+st.markdown(f'<h1 style="color:#000000;font-size:24px;">{"ColorMeBlue text”"}</h1>', unsafe_allow_html=True)
+
 # Remove the Streamlit logo
 hide_streamlit_style = """
 <style>
