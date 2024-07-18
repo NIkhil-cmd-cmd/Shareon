@@ -25,10 +25,6 @@ custom_css = f"""
         font-size: 5em;
         color: #000000;
     }}
-    .user-icon {{
-        background: url('https://i.pinimg.com/originals/cb/7d/48/cb7d48c589412612f5fd4a554e36a325.png') no-repeat center center;
-        background-size: contain;
-    }}
     .assistant-icon {{
         background: url('') no-repeat center center;
         background-size: contain;
@@ -52,14 +48,6 @@ hide_streamlit_style = """
     header {visibility: hidden;}
     </style>
     """
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
-
-hide_streamlit_style = """
-            <style>
-            [data-testid="stToolbar"] {visibility: hidden !important;}
-            footer {visibility: hidden !important;}
-            </style>
-            """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 # Set OpenAI API key
