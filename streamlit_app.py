@@ -9,7 +9,7 @@ st.set_page_config(page_title="Share-On chatbot.", page_icon="🦙", layout="cen
 # Custom CSS to change the background color to light blue
 custom_css = """
     <style>
-    body {
+    html, body, [data-testid="stAppViewContainer"], [data-testid="stHeader"], [data-testid="stSidebar"] {
         background-color: #ADD8E6;
     }
     </style>
