@@ -14,24 +14,6 @@ custom_css = """
     }
     </style>
     """
-
-# Custom CSS to change the background color to #5fe3e8 and customize icons
-custom_css = """
-    <style>
-    html, body, [data-testid="stAppViewContainer"], [data-testid="stHeader"], [data-testid="stSidebar"] {
-        background-color: #5fe3e8;
-    }
-    .chat-input {
-        background-color: #e1fdfd;
-    }
-    .chat-icon {
-        display: inline-block;
-        width: 20px;
-        height: 20px;
-        margin-right: 10px;
-        vertical-align: middle;
-    }
-
 st.markdown(custom_css, unsafe_allow_html=True)
 
 # Remove the Streamlit logo
