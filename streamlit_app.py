@@ -26,7 +26,7 @@ custom_css = f"""
         vertical-align: middle;
     }}
     h1 {{
-        font-size: 3em;
+        font-size: 10em;
     }}
     </style>
     """
