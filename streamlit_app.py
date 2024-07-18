@@ -147,7 +147,7 @@ if "chat_engine" not in st.session_state.keys():  # Initialize the chat engine
 
 # Prompt for user input and save to chat history
 if prompt := st.chat_input("Ask a question"):  
-    st.session_state.messages.append({"role": "user", "content": prompt})
+    st.session_state.messages.append({"
 
 # Display message history
 for message in st.session_state.messages:
