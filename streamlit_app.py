@@ -25,7 +25,7 @@ custom_css = f"""
     </style>
     """
 st.markdown(custom_css, unsafe_allow_html=True)
-st.markdown(f'<p style="color:#000000;">{text}</p>', unsafe_allow_html=True)
+#st.markdown(f'<p style="color:#000000;">{text}</p>', unsafe_allow_html=True)
 
 #st.markdown(f'<h1 style="color:#000000;font-size:24px;">{"Share-On Chatbot”"}</h1>', unsafe_allow_html=True)
 
