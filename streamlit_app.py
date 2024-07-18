@@ -18,13 +18,6 @@ custom_css = f"""
     .stTextInput > div:first-child {{
        background-color: #e1fdfd;
     }}
-    .chat-icon {{
-        display: inline-block;
-        width: 50px;
-        height: 50px;
-        margin-right: 10px;
-        vertical-align: middle;
-    }}
     h1 {{
         font-size: 5em;
     }}
