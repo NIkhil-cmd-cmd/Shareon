@@ -48,9 +48,9 @@ st.markdown("""
         margin-right: 10px;
     }
     </style>
-    """, unsafe_allow_html=True)
-st.markdown(f'<div class="chatbot-message"><div class="user-icon"></div><div>How can I help you today?</div></div>', unsafe_allow_html=True)
-st.markdown(f'<div class="chatbot-message"><div class="bot-icon"></div><div>Sure, I can assist you with that!</div></div>', unsafe_allow_html=True)
+    """, unsafe_allow_html=True)'''
+#st.markdown(f'<div class="chatbot-message"><div class="user-icon"></div><div>How can I help you today?</div></div>', unsafe_allow_html=True)
+#st.markdown(f'<div class="chatbot-message"><div class="bot-icon"></div><div>Sure, I can assist you with that!</div></div>', unsafe_allow_html=True)
 
 #st.markdown(f'<p style="color:#000000;">{text}</p>', unsafe_allow_html=True)
 
