@@ -36,7 +36,7 @@ st.markdown(custom_css, unsafe_allow_html=True)
 
 # Remove the Streamlit logo
 hide_streamlit_style = """
-    <style>
+<style>
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
     header {visibility: hidden;}
