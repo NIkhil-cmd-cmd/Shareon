@@ -17,7 +17,9 @@ st.set_page_config(page_title="Share-On chatbot.", page_icon="🦙", layout="cen
 #st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 # Set OpenAI API key
-openai.api_key = st.secrets.openai_key
+#openai.api_key = st.secrets.openai_key
+openai.api_key = st.secrets["openai_key"]
+
 
 # Title and info
 st.title("Share-On Chatbot")
