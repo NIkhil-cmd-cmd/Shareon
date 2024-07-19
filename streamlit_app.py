@@ -6,7 +6,13 @@ from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, Settings
 # Set Streamlit page config
 st.set_page_config(page_title="Share-On chatbot.", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
 
-
+hide_streamlit_style = """
+            <style>
+            [data-testid="stToolbar"] {visibility: hidden !important;}
+            footer {visibility: hidden !important;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 # Set OpenAI API key
 openai.api_key = st.secrets.openai_key
