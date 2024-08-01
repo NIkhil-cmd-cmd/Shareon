@@ -21,7 +21,7 @@ openai.api_key = st.secrets.openai_key
 
 # Title and info
 st.title("get off this chatbot shiven")
-st.info("Share-On is at your assistance and here to support you.")
+st.info("get off.")
 
 # Initialize chat messages history
 if "messages" not in st.session_state.keys():  # Initialize the chat messages history
