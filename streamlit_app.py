@@ -20,7 +20,7 @@ openai.api_key = st.secrets.openai_key
 
 
 # Title and info
-st.title("Share-On Chatbot")
+st.title("get off this chatbot shiven")
 st.info("Share-On is at your assistance and here to support you.")
 
 # Initialize chat messages history
