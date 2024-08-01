@@ -4,7 +4,7 @@ from llama_index.llms.openai import OpenAI
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, Settings
 
 # Set Streamlit page config
-st.set_page_config(page_title="Share-On chatbot.", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
+st.set_page_config(page_title="skibidi.", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
 
 hide_streamlit_style = """
             <style>
