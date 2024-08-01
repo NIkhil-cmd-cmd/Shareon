@@ -20,7 +20,7 @@ openai.api_key = st.secrets.openai_key
 
 
 # Title and info
-st.title("get off this chatbot shiven")
+st.title("get off this chatbot bro")
 st.info("get off.")
 
 # Initialize chat messages history
